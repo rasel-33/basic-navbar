@@ -1,66 +1,64 @@
-.navlist{
-    background-color: red;
+body {
+  background-color: rgb(48, 45, 45);
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style-type: none;
-    
+.navlist {
+  background-color: red;
 }
 
-ul li a{
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px 10px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    transition: all 0.5s;
-    background-color: red;
-    width: 7.5rem;
-    text-align: center;
-
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
 }
 
-ul li a:hover{
-    background-color: rgb(26, 21, 21);
+ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.5s;
+  background-color: red;
+  width: 7.5rem;
+  text-align: center;
 }
 
-
-.list-item{
-    position: relative;
+ul li a:hover {
+  background-color: rgb(26, 21, 21);
 }
 
-.list-under-wordpress{
-    position: absolute;
-    flex-direction: column;
-    display: none;
+.list-item {
+  position: relative;
 }
 
-ul li:hover .list-under-wordpress{
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: 60px;
+.list-under-wordpress {
+  position: absolute;
+  flex-direction: column;
+  display: none;
 }
 
-.list-under-wordpress-item{
-    position: relative;
+ul li:hover .list-under-wordpress {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 60px;
 }
 
-.list-under-tutorials{
-    display: none;
+.list-under-wordpress-item {
+  position: relative;
 }
 
-.list-under-wordpress-item:hover .list-under-tutorials{
-    flex-direction: column;
-    position: relative;
-    left: 4.38rem;
-    bottom: 31px;
-    display: inline-block;
-} 
+.list-under-tutorials {
+  display: none;
+}
 
-
-
+.list-under-wordpress-item:hover .list-under-tutorials {
+  flex-direction: column;
+  position: relative;
+  left: 4.38rem;
+  bottom: 31px;
+  display: inline-block;
+}
